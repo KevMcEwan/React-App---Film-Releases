@@ -6,7 +6,6 @@ class ContainerName extends Component {
          <h1>Upcoming Film Releases For UK</h1>
       );
    }
-
 }
 
 export default ContainerName;
