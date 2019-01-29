@@ -1,5 +1,6 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import Film from './Film';
+import '../index.css';
 
 class FilmList extends Component{
    render(){
@@ -15,9 +16,9 @@ class FilmList extends Component{
       });
       
       return (
-         <Fragment>
+         <ul>
             {films}
-         </Fragment>
+         </ul>
       );
    }
 

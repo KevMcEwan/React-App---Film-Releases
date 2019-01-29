@@ -6,7 +6,7 @@ class Film extends Component{
       console.log(this.props.url);
       return(
          <>
-         <p><a href={this.props.url}>{this.props.name}</a></p>
+         <p><a href={this.props.url} target="_blank">{this.props.name}</a></p>
          </>
       );
    }

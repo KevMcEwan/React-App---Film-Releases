@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import FilmList from '../components/FilmList.js';
 import ContainerName from '../components/ContainerName.js';
+import Footer from '../components/Footer.js';
 
 class FilmListContainer extends Component {
    constructor(props){
@@ -41,6 +42,7 @@ class FilmListContainer extends Component {
          <>
          <ContainerName />
          <FilmList films={this.state.films}/>
+         <Footer />
          </>
       );
    }
